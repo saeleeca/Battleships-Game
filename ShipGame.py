@@ -1,13 +1,4 @@
-# Author: Calvin Saelee
-# GitHub username: saeleeca
-# Date: 3/09/2022
-# Description: This program contains a two-player game called ShipGame that is based off of the tabletop game Battleship
-# Players must first place their battleships and then player 1 may make the first move by calling the fire_torpedo
-# method. Afterwards the players alternate turns until one player's ship have all been sunk and the other player wins.
-
 import random
-from enum import Enum
-
 
 class ShipGame:
     """ A class to represent the popular board-game Battleship that contains essential dictionary-lists and methods
